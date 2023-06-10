@@ -5,7 +5,7 @@ This is the code a used to answer my Terminal Assignment-based Assessment for th
 A hypothetical Irish climate change advocacy group wants to analyse the carbon footprint (CFP) of higher education students in Ireland. The group collected data about all higher education students concerning their transport usage to travel to/from their respective universities. So far, the group has managed to collect 10,000 CFP records containing 8-digit StudentCode (integer), studentName (string), ModeOfTransport (Bus, Train, Car, Motor Bike, Bike, E-scooter, Walk), distance in KM (integer) and Emission in KG (float). The data is already sorted by studentCode in ascending order.
 Assuming that you are part of development team, your responsibility includes analysis of the data and writing program fragments that will manage information related to the CFP. Now you are assigned to implement and generate report for the following sprints before 02-08-2022 @23:59. A supplementary Java code that will read and store the dataset in an array of CFP, and the dataset will be provided for you on the Moodle page.
 
-##Part 1: Sorting and Searching: Algorithm Analysis
+## Part 1: Sorting and Searching: Algorithm Analysis
 1. Write a Java method(s) that sort the CFP information using a Merge-sort algorithm. The CFP should be sorted by its studentName in ascending order. (30 Marks)
   Input: 10,000 unsorted CFP records,
   Output: 10,000 CFP records sorted in ascending order by studentName.
